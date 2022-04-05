@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(rgba(161, 155, 155, 0.257), rgba(88, 185, 151, 0.925));
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+    margin: 8em auto;
+    border: 1px solid rgba(255, 0, 0, 0.72);
+    padding: 10px;
+    border-radius: 9px;
+    background-color: rgba(43, 43, 43, 0.189);
+    color: rgba(9, 0, 107, 0.748);
+}
+
+#heading {
+    background: linear-gradient(90deg, rgba(7, 225, 170, 0.457), rgba(214, 191, 14, 0.432));
+    padding: 2px 4px;
+    width: fit-content;
+    margin: auto;
+    box-shadow: 2px 2px 8px 1px rgb(58, 58, 58);
+    color: rgb(255, 242, 242);
+}
+
+.element {
+    padding: 2px 5px;
+    border-radius: 9px;
+    color: rgb(238, 238, 238);
+}
+
+section {
+    width: 27em;
+    margin: 2em auto;
+    text-align: center;
+    font-size: 21px;
+}

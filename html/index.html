@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello!</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="icon" type="image/x-icon" href="/image/messengerLogo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Signika+Negative:wght@300&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Secular+One&family=Signika+Negative:wght@300&family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="/image/messengerLogo.png" alt="Loading" id="logo" class="element">
+        <h1 class="element" id="heading">Hello!</h1>
+        <div class="navigation">
+            <ul>
+                <li class="list"><a href="#" class="anchor" id="home">Home</a></li>
+                <li class="list"><a href="../html/about.html" class="anchor">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 id="user-name"></h1>
+        <hr>
+        <div class="display">
+        </div>
+        <form action="$" id="msg-form">
+            <input type="text" id="send-msg" placeholder="Type Your message here">
+            <button type="submit" id="btn">Send</button>
+        </form>
+    </div>
+    <script src="http://localhost:8080/socket.io/socket.io.js"></script>
+    <script src="../js/client.js"></script>
+</body>
+
+
+</html>
